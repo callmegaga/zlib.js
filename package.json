@@ -1,0 +1,28 @@
+{
+  "name": "zlib.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup/rollup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moon9sky/zlib.js.git"
+  },
+  "author": "WangYing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moon9sky/zlib.js/issues"
+  },
+  "homepage": "https://github.com/moon9sky/zlib.js#readme",
+  "dependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}
